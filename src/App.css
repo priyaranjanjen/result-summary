@@ -1,0 +1,16 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.custom-gradient {
+    background: linear-gradient(to bottom,
+            hsla(256,
+                72%,
+                46%, 0.9) 0%,
+            /* Lighter opacity */
+            hsl(241,
+                81%,
+                54%, 0.9) 100%
+            /* Solid color for the end */
+        );
+}
